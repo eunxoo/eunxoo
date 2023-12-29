@@ -8,6 +8,9 @@
 <h3 align="center">💌 Contact Me 💌</h3>
 <p align="center">
       <a href="mailto:dmstn7989@gmail.com"><img src = "https://img.shields.io/badge/mail-red?style=flat-square&logo=GMail&logoColor=white"></a>
+</p>
+<p align="center">
+      <a href="https://www.instagram.com/eunxo.o/?igsh=OGQ5ZDc2ODk2ZA%3D%3D"><img src = "https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white"></a>
 </p> 
 <br>
 
