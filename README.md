@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Yang-EunSoo&fontSize=90" /></p>
 
-<p align="center">'애정'<br><br>
+<p align="center">일에 '애정'을 가진 개발자<br><br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Feunxoo&count_bg=%2365F5F4&title_bg=%23D7D4D4&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>           </p>             
 <h3 align="center">💌 Contact Me 💌</h3>
 <p align="center">
