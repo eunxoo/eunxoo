@@ -16,50 +16,6 @@ def logging_time(original_fn):
         print("WorkingTime[{}]: {} sec".format(original_fn.__name__, end_time - start_time))
         return result
     return wrapper
-
-@app.route('/', methods=['GET', 'POST'])
-@logging_time
-def index():
-    html = '''
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>News Crawler</title>
-    </head>
-    <body>
-        <form method="POST">
-            검색어: <input type="text" name="keyword"><br>
-            페이지 수: <input type="number" name="lastpage" value="1"><br>
-            <input type="submit" value="검색">
-        </form>
-    '''
-
-    if request.method == 'POST':
-        keyword = request.form.get('keyword')
-        lastpage = int(request.form.get('lastpage', 1))
-        html += '<ul>'
-
-        for page in tqdm(range(1, lastpage + 1)):
-            response = requests.get(f"https://search.naver.com/search.naver?where=news&query={keyword}&start={(page - 1) * 10 + 1}")
-            soup = BeautifulSoup(response.content, 'html.parser')
-
-            for link in soup.select('.news_tit'):
-                title = link.text
-                url = link.attrs['href']
-                html += f'<li><a href="{url}">{title}</a></li>'
-
-        html += '</ul>'
-
-    html += '''
-    </body>
-    </html>
-    '''
-
-    return html
-
-if __name__ == '__main__':
-    app.run(host = '0.0.0.0', debug=True)
-
 ```
 ---
 ## **<인스턴스 유형_(T 계열 인스턴스 크기 변경)>**
