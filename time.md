@@ -40,6 +40,7 @@ def logging_time(original_fn):
 
 <br>
 
+<img width="835" alt="스크린샷 2024-01-05 오전 9 19 10" src="https://github.com/eunxoo/eunxoo/assets/80334038/c0c5b4f0-9606-4158-bbbb-a326fb86944d">
 
 ---
 **<구현 페이지>**
